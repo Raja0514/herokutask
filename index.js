@@ -4,7 +4,7 @@ const app =express();
 
 app.get("/",(req,res)=>{
 
-    res.send("working........")
+    res.send("my first server running....")
 })
 
 app.listen(process.env.PORT||3002,()=>{
